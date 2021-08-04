@@ -1,2 +1,2 @@
-# python-api-challenge
+# Python API Challenge
 Learning about APIs
