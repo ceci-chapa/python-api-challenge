@@ -5,18 +5,23 @@
 The following scatter plots analyzes the data of about 500 random cities collected from Open Weather. From those 500 cities it is then narrowed down to 7 cities to then pin them using google maps and its different layering methods. 
 
 ### Plotting the Cities Data to Analyze Temperature, Humidity, Cloudiness, and Wind Speed
+
+#### Cities: Latitude and Max Temperature
 This scatterplot is presenting the pattern of latitude versus the max temperature. This appears to be a strong, non-linear plot where the latitude numbers close to the equator tend to rise in temperature and as the latitude gets closer to the southern or northern hemisphere the temperature begins to drop.
 
 ![year-2014-screenshot](images/lat_vs_temp.png)
 
+#### Cities: Latitude and Humidity
 This scatter plot is comparing the latitude versus the humidity from a given city and it appears that there is no correlation between the two.
 
 ![year-2014-screenshot](images/lat_vs_humi.png)
 
+#### Cities: Latitude and Cloudiness
 In the latitude versus cloudiness scatter plot, there appears to be a lot of accumulated points at the very top and bottom of the chart where both the southern and northern latitudes have points for cloudiness in the 0s and 100s. There are also many points plotted throughout the chart. Based on this observation there appears to be no relationship between the two. 
 
 ![year-2014-screenshot](images/lat_vs_cloudi.png)
 
+#### Cities: Latitude and Wind Speed
 For the latitude versus wind speed scatter plot, it appears that there is no relationship. Although there is no trend, it can be observed that based that the wind speeds below 15mph seemed to have been more common among the cities than speeds above 15mph.
 
  ![year-2014-screenshot](images/lat_vs_wind.png)
