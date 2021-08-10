@@ -4,7 +4,7 @@
 ## Using Scatter Plots and Google Heat Layer
 The following scatter plots analyzes the data of about 500 random cities collected from Open Weather. From those 500 cities it is then narrowed down to 7 cities to then pin them using google maps and its different layering methods. 
 
-### Plotting the Cities data to Analyze Temperature, Humidity, Cloudiness, and Wind Speed
+### Plotting the Cities Data to Analyze Temperature, Humidity, Cloudiness, and Wind Speed
 This scatterplot is presenting the pattern of latitude versus the max temperature. This appears to be a strong, non-linear plot where the latitude numbers close to the equator tend to rise in temperature and as the latitude gets closer to the southern or northern hemisphere the temperature begins to drop.
 
 ![year-2014-screenshot](images/lat_vs_temp.png)
@@ -23,12 +23,12 @@ For the latitude versus wind speed scatter plot, it appears that there is no rel
 
 ### Analyzing the Northern and Southern Hemispheres
 
-#### Northern Hemisphere Temp vs Lat
+#### Northern Hemisphere Temperature vs Latitude
 When observing the plot for the Northern Hemisphere we can see that there is a downward trend with an estimated r-value of about 38%. We can also see that the relationship is not as strong based on how the other points don’t seem to be following the fitted line. Based on the plot we would see that as the latitude moves higher, the max temperature would drop but this isn’t always the case on a handful of these points. 
 
 ![year-2014-screenshot](images/nh_temp_vs_lat.png)
 
-#### Southern Hemisphere Temp vs Lat
+#### Southern Hemisphere Temperature vs Latitude
 For the Southern Hemisphere plot with the max temperature versus the latitude, it appears to have a positive trend with a stronger relationship when compared to the Northern Hemisphere plot. The stronger relationship can be seen from the r-value which is about 65% and from the plot points that follow the fitted line more closely.  
 
 ![year-2014-screenshot](images/sh_temp_vs_lat.png)
@@ -62,3 +62,10 @@ Similar to the first wind speed comparison we can see that for the Northern Hemi
 For the Southern Hemisphere plot that compares the wind speed and latitude, we can also see that there is no relationship. This can be seen by observing how the plot points are not following the fitted line and by the r-value of about 0.7%. 
 
 ![year-2014-screenshot](images/sh_wind_vs_lat.png)
+
+### Google: Using Heat Layer and Adding Pins
+
+![year-2014-screenshot](images/heat-map.png)
+
+![year-2014-screenshot](images/heat-map-labels.png)
+
